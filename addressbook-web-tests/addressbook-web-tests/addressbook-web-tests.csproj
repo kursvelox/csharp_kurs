@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccontDataContact.cs" />
+    <Compile Include="GroupModificationTests.cs" />
     <Compile Include="model\AccountData.cs" />
     <Compile Include="appmanager\ApplicationManager.cs" />
     <Compile Include="task\Circle.cs" />
@@ -66,7 +67,7 @@
     <Compile Include="task\Figure.cs" />
     <Compile Include="appmanager\GroupHelper.cs" />
     <Compile Include="model\GroupDate.cs" />
-    <Compile Include="tests\GroupRemovalTest.cs" />
+    <Compile Include="tests\GroupRemovalTests.cs" />
     <Compile Include="appmanager\HelperBase.cs" />
     <Compile Include="appmanager\LoginHelper.cs" />
     <Compile Include="appmanager\NavigationHelper.cs" />
