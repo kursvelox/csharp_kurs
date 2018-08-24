@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace WebAddressbookTests
 {
-    class ContactData
+    public class ContactData
     {
         private string firsfname;
         private string lastname;
+
         private string nickname = "";
         private string title = "";
         private string company = "";
@@ -24,6 +25,12 @@ namespace WebAddressbookTests
         private string homepage = "";
         private string address2 = "";
         private string notes = "";
+        private string v;
+
+        public ContactData(string v)
+        {
+            this.v = v;
+        }
 
         public ContactData(string firsfname, string lastname)
         {

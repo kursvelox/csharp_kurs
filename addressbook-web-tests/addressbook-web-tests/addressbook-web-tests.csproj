@@ -58,12 +58,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccontDataContact.cs" />
-    <Compile Include="GroupModificationTests.cs" />
+    <Compile Include="appmanager\ContactHelper.cs" />
+    <Compile Include="ContactModificationTests.cs" />
+    <Compile Include="tests\ContactRemovalTests.cs" />
+    <Compile Include="tests\GroupModificationTests.cs" />
     <Compile Include="model\AccountData.cs" />
     <Compile Include="appmanager\ApplicationManager.cs" />
     <Compile Include="task\Circle.cs" />
-    <Compile Include="ContactData.cs" />
+    <Compile Include="model\ContactData.cs" />
     <Compile Include="task\Figure.cs" />
     <Compile Include="appmanager\GroupHelper.cs" />
     <Compile Include="model\GroupDate.cs" />
@@ -75,7 +77,7 @@
     <Compile Include="tests\TestBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tests\GroupCreationTests.cs" />
-    <Compile Include="ContactCreationTests.cs" />
+    <Compile Include="tests\ContactCreationTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

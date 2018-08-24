@@ -18,12 +18,12 @@ namespace WebAddressbookTests
         {
             this.baseURL = baseURL;
         }
-
+       
         public void GoToHomePage()
         {
-            driver.Navigate().GoToUrl(baseURL + "addressbook/delete.php?part=5;");
+            driver.Navigate().GoToUrl(baseURL + "addressbook/");
         }
-
+                
         public void GoToGroupsPage()
         {
             driver.FindElement(By.LinkText("groups")).Click();
