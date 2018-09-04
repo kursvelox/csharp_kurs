@@ -22,8 +22,8 @@ namespace WebAddressbookTests
         public void EmptyGroupCreationTest()
         {
             GroupDate group = new GroupDate("");
-            group.Header ="";
-            group.Footer ="";
+            group.Header = "";
+            group.Footer = "";
             app.Groups.Create(group);
         }
     }
