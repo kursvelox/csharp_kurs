@@ -16,6 +16,12 @@ namespace WebAddressbookTests
         {
             this.name = name;
         }
+        public GroupDate(string name,string header, string footer)
+        {
+            this.Name = name;
+            this.Header = header;
+            this.Footer = footer;
+        }
 
         public string Name
         {
